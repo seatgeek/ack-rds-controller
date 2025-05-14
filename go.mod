@@ -7,7 +7,9 @@ toolchain go1.24.1
 require (
 	github.com/aws-controllers-k8s/ec2-controller v1.1.2
 	github.com/aws-controllers-k8s/kms-controller v1.0.8
+	github.com/aws-controllers-k8s/rds-controller/apis v0.0.0-00010101000000-000000000000
 	github.com/aws-controllers-k8s/runtime v0.46.1
+	github.com/aws-controllers-k8s/runtime/apis v0.0.0
 	github.com/aws/aws-sdk-go v1.49.0
 	github.com/aws/aws-sdk-go-v2 v1.34.0
 	github.com/aws/aws-sdk-go-v2/service/rds v1.93.8
@@ -20,6 +22,12 @@ require (
 	k8s.io/client-go v0.32.1
 	sigs.k8s.io/controller-runtime v0.20.4
 )
+
+replace github.com/aws-controllers-k8s/runtime => github.com/seatgeek/ack-runtime v0.0.0-20250514015000-aa7051459a75
+
+replace github.com/aws-controllers-k8s/runtime/apis => github.com/seatgeek/ack-runtime/apis v0.0.0-20250514015000-aa7051459a75
+
+replace github.com/aws-controllers-k8s/rds-controller/apis => ./apis
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.28.6 // indirect

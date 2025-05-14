@@ -2,8 +2,6 @@ github.com/aws-controllers-k8s/ec2-controller v1.1.2 h1:Bry62L279S7mJofk0sS4o7T7
 github.com/aws-controllers-k8s/ec2-controller v1.1.2/go.mod h1:XZOZcSk0tzplY+A0dADqD4NK4a8g8Jqwf/Ouv2Sz/eQ=
 github.com/aws-controllers-k8s/kms-controller v1.0.8 h1:nDPYQhsgD2s14rEMNmGCwkm+e0Emjo/Usl3is7e9EFk=
 github.com/aws-controllers-k8s/kms-controller v1.0.8/go.mod h1:HjSBjtiljNL1yFzrOizxeQe2+88tW3mHD5fnEGwVYGE=
-github.com/aws-controllers-k8s/runtime v0.46.1 h1:61RU6uYiFSp0cDhv52vAmaPzrebzoudtsp1fGkk6iLk=
-github.com/aws-controllers-k8s/runtime v0.46.1/go.mod h1:G2UMBKA7qgXG4JV16NTIUp715uqvUEvWaa7TG1I527U=
 github.com/aws/aws-sdk-go v1.49.0 h1:g9BkW1fo9GqKfwg2+zCD+TW/D36Ux+vtfJ8guF4AYmY=
 github.com/aws/aws-sdk-go v1.49.0/go.mod h1:LF8svs817+Nz+DmiMQKTO3ubZ/6IaTpq3TjupRn3Eqk=
 github.com/aws/aws-sdk-go-v2 v1.34.0 h1:9iyL+cjifckRGEVpRKZP3eIxVlL06Qk1Tk13vreaVQU=
@@ -143,6 +141,10 @@ github.com/rogpeppe/go-internal v1.12.0 h1:exVL4IDcn6na9z1rAb56Vxr+CgyK3nn3O+epU
 github.com/rogpeppe/go-internal v1.12.0/go.mod h1:E+RYuTGaKKdloAfM02xzb0FW3Paa99yedzYV+kq4uf4=
 github.com/samber/lo v1.37.0 h1:XjVcB8g6tgUp8rsPsJ2CvhClfImrpL04YpQHXeHPhRw=
 github.com/samber/lo v1.37.0/go.mod h1:9vaz2O4o8oOnK23pd2TrXufcbdbJIa3b6cstBWKpopA=
+github.com/seatgeek/ack-runtime v0.0.0-20250514015000-aa7051459a75 h1:Lrex2cF3CmQs4oHENGhEcbTH0bjrMHUdp52yw0/MCSc=
+github.com/seatgeek/ack-runtime v0.0.0-20250514015000-aa7051459a75/go.mod h1:XEzilobwJlBQeyaFpEuNPw0wRrvlxW4hyJrjx+5EzT4=
+github.com/seatgeek/ack-runtime/apis v0.0.0-20250514015000-aa7051459a75 h1:7ODnSLvy3tgZefKJs5LmONriR2SsHFuVWiyjY8HfG4Y=
+github.com/seatgeek/ack-runtime/apis v0.0.0-20250514015000-aa7051459a75/go.mod h1:WbUTU8fYcFmg54ou4gtq2jxP01UV3houw1DFXjJexc8=
 github.com/spf13/pflag v1.0.5 h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=
 github.com/spf13/pflag v1.0.5/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
