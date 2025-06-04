@@ -1,8 +1,6 @@
 module github.com/aws-controllers-k8s/rds-controller/apis
 
-go 1.24.0
-
-toolchain go1.24.1
+go 1.23.0
 
 require (
 	github.com/aws-controllers-k8s/runtime/apis v0.0.0
@@ -11,7 +9,7 @@ require (
 	sigs.k8s.io/controller-runtime v0.20.4
 )
 
-replace github.com/aws-controllers-k8s/runtime/apis => github.com/seatgeek/ack-runtime/apis v0.0.0-20250514015000-aa7051459a75
+replace github.com/aws-controllers-k8s/runtime/apis => github.com/seatgeek/ack-runtime/apis v0.0.0-20250604162032-947960016bd2
 
 require (
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
